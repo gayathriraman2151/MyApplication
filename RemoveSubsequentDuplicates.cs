@@ -4,7 +4,6 @@ using System.Collections.Generic;
 class RemoveSubsequentDuplicates
 {
     //Remove subsequent duplicate items in the array.
-
     public static void Main(String[] args)
     {
         //Creating a hash set
@@ -16,12 +15,10 @@ class RemoveSubsequentDuplicates
         //Looping through Array
         for (int i = 0; i < arrayLength; i++)
         {
-
             if (!hsRemoveSubsequentDupes.Contains(arr[i]))
             {
                 hsRemoveSubsequentDupes.Add(arr[i]);
             }
-
         }
         
         // Display Elements
@@ -30,7 +27,6 @@ class RemoveSubsequentDuplicates
             Console.WriteLine(element);
         }
     }
-
 }
 
 /* 

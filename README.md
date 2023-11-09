@@ -13,5 +13,6 @@ For the second pair of indices, (0, 6), the substring is |**|*|* and there are 2
 Both of the answers are returned in an array, [2, 3]
 5. Merge Two Array Elements 
 6. Reposition Array Elements based on old and new position in the array
+7. String Is Palindrome
 
 

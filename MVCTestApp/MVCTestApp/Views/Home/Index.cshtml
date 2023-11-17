@@ -1,0 +1,13 @@
+﻿@model MVCTestApp.Models.SubjectModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <label for="SubjectList">Subject List:</label>
+    @Html.LabelFor(model => model.SelectedSubject, "Select a Subject:")
+    @Html.DropDownListFor(model => model.SelectedSubject, new SelectList(Model.SubjectList), "Choose a Subject")
+
+
+</div>
